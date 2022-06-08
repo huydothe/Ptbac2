@@ -19,8 +19,7 @@ function sum() {
         if (delta > 0) {
             x1 = (-b + Math.sqrt(delta)) / 2 * a;
             x2 = (-b - Math.sqrt(delta)) / 2 * a;
-            document.getElementById('result').innerHTML = 'Nghiệm x1=' + x1;
-            document.getElementById('result').innerHTML = 'Nghiệm x2=' + x2;
+            document.getElementById('result').innerHTML = 'Nghiệm x1=' + x1 + 'Nghiệm x2=' + x2;
         } else {
             if (delta == 0) {
                 x4 = -b / (2 * a);
